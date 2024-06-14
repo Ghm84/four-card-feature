@@ -1,0 +1,238 @@
+body {
+    display: grid;
+    overflow: auto;
+}
+
+.canvas {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 0.8rem;
+}
+
+.intro {
+    width: 100%;
+}
+
+.intro-title {
+    color: hsl(234, 12%, 34%);
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    line-height: 2.5rem;
+}
+
+.bold {
+    color: hsl(234, 12%, 34%);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.6rem; 
+}
+
+.intro-paragraph {
+    color:  hsl(229, 6%, 66%);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.97rem;
+    line-height: 1.5rem;
+    width: 98%;
+    margin-left: 1.2rem;
+}
+
+.second-line-paragraph {
+    margin-left: 0.5rem;
+}
+
+.third-line-paragraph {
+    margin-left: 0.3rem;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.supervisor-card {
+    position: relative;
+    width: 93%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    border: 2px  hsl(0, 0%, 98%) solid;
+    border-radius: 0.5rem; 
+    border-top: 0.25rem solid hsl(180, 62%, 55%);
+    box-shadow: -5px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.supervisor-title {
+    color:  hsl(234, 12%, 34%);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.supervisor-function {
+    color:  hsl(229, 6%, 66%);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+}
+
+.icon-supervisor {
+    position: relative;
+    float: right;
+    width: 3.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.team-builder-card {
+    position: relative;
+    width: 93%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    border: 2px  hsl(0, 0%, 98%);
+    border-radius: 0.5rem;
+    border-top: 0.25rem solid hsl(0, 78%, 62%);
+    box-shadow: -5px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.team-builder-title {
+    color:  hsl(234, 12%, 34%);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.team-builder-function {
+    color:  hsl(229, 6%, 66%);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+}
+
+.icon-team-builder {
+    position: relative;
+    float: right;
+    width: 3.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.karma-card {
+    position: relative;
+    width: 93%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    border: 2px  hsl(0, 0%, 98%);
+    border-radius: 0.5rem;
+    border-top: 0.25rem solid hsl(34, 97%, 64%);
+    box-shadow: -5px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.karma-title {
+    color:  hsl(234, 12%, 34%);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.karma-function {
+    color:  hsl(229, 6%, 66%);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+
+.icon-karma {
+    position: relative;
+    float: right;
+    width: 3.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.calculator-card {
+    position: relative;
+    width: 93%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    border: 2px  hsl(0, 0%, 98%);
+    border-top: 0.25rem solid hsl(212, 86%, 64%);
+    border-radius: 0.5rem;
+    box-shadow: -5px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.calculator-title {
+    color:  hsl(234, 12%, 34%);
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.calculator-function {
+    color:  hsl(229, 6%, 66%);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+
+.icon-calculator {
+    position: relative;
+    float: right;
+    width: 3.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+}
