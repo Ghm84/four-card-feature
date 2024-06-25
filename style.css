@@ -243,8 +243,8 @@ body {
     .canvas {
         max-width: 40%;
         height: auto;
-        margin-top: 5.5rem;
-        margin-left: 2.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
         margin-bottom: 1rem;
     }
 
