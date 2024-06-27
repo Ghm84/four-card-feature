@@ -27,7 +27,7 @@ body {
     color: hsl(234, 12%, 34%);
     font-family: "Poppins";
     font-weight: 200;
-    font-size: 1.6rem;
+    font-size: 1.55rem;
     margin-left: 1rem;
     line-height: 2.5rem;
 }
@@ -36,7 +36,7 @@ body {
     color: hsl(234, 12%, 34%);
     font-family: "Poppins";
     font-weight: 600;
-    font-size: 1.6rem; 
+    font-size: 1.55rem; 
 }
 
 .intro-paragraph {
@@ -46,7 +46,7 @@ body {
     font-size: 0.97rem;
     line-height: 1.5rem;
     width: 98%;
-    margin-left: 1.2rem;
+    margin-left: 0.9rem;
 }
 
 .second-line-paragraph {
